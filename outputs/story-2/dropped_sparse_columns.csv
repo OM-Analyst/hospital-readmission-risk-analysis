@@ -1,0 +1,3 @@
+removed_column,reason
+weight,Excessive missingness (>39% as '?')
+payer_code,Excessive missingness (>39% as '?')
