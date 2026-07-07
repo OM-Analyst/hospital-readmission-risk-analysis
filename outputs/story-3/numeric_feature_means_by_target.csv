@@ -1,0 +1,9 @@
+feature,not_readmitted_30d_mean,readmitted_30d_mean
+time_in_hospital,4.22,4.79
+num_lab_procedures,42.68,44.91
+num_procedures,1.43,1.42
+num_medications,15.57,16.62
+number_outpatient,0.28,0.31
+number_emergency,0.1,0.15
+number_inpatient,0.16,0.37
+number_diagnoses,7.2,7.51

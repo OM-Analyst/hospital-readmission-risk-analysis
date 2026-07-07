@@ -195,6 +195,28 @@ Primary output:
 ```text
 outputs/story-2/cleaned_readmission_data.csv
 ```
+### Story 3 – Exploratory Data Analysis
+
+✅ Completed
+
+Completed using:
+
+- `src/eda_analysis.py`
+
+Analysis performed:
+
+- Readmission rate by age, race, gender, admission type, discharge disposition, admission source, diabetes medication use, A1C/glucose results
+- Numeric feature comparison (readmitted vs. not readmitted)
+- Correlation matrix across numeric features and target
+- Distribution plots: age, race, time in hospital, target balance
+
+Key finding: readmission rate rises steadily with age, from 1.96% (ages 0–10) to 10.79% (ages 80–90).
+
+Outputs saved to:
+
+```text
+outputs/story-3/
+```
 
 \## Current Status
 
@@ -206,4 +228,6 @@ outputs/story-2/cleaned_readmission_data.csv
 
 ✅ Story 2 completed
 
-🔄 Story 3 – Exploratory Data Analysis next
+✅ Story 3 completed
+
+🔄 Story 4 – Feature Engineering next
