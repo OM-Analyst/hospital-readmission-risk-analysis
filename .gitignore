@@ -10,9 +10,6 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Output files
-outputs/
-
 # IDE
 .idea/
 

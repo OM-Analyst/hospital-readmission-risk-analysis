@@ -1,0 +1,3 @@
+removed_column,reason
+encounter_id,Identifier column
+patient_nbr,Identifier column
