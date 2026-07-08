@@ -1,0 +1,11 @@
+diag_1_category,encounters,readmitted,readmission_rate_percent
+Unknown,10,2,20.0
+Injury,4696,507,10.8
+Circulatory,21390,2070,9.68
+Diabetes,5748,524,9.12
+Neoplasms,2538,230,9.06
+Genitourinary,3441,309,8.98
+Other,12124,1089,8.98
+Musculoskeletal,4064,341,8.39
+Digestive,6488,520,8.01
+Respiratory,9491,693,7.3

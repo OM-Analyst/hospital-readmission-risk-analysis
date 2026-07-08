@@ -217,10 +217,44 @@ Outputs saved to:
 ```text
 outputs/story-3/
 ```
+### Story 4 – Feature Engineering
+
+✅ Completed
+
+Completed using:
+
+- `src/feature_engineering.py`
+
+New features created:
+
+- `age_numeric` (age bracket converted to midpoint)
+- `total_prior_visits`, `had_prior_inpatient_visit`
+- `num_medications_prescribed`, `num_medications_changed`
+- `diag_1_category` (ICD-9 grouped into 9 clinical categories)
+
+Encoding:
+
+- Medication columns ordinal-encoded (No < Down < Steady < Up)
+- `medical_specialty` bucketed to top 10 + "Other"
+- Remaining categoricals one-hot encoded
+
+Key finding: prior inpatient visits nearly double the readmission rate (15.4% vs. 8.13%).
+
+Result: 69,990 rows × 47 cols → 69,990 rows × 82 cols, fully numeric, 0 nulls.
+
+Outputs saved to:
+
+```text
+outputs/story-4/
+```
+
+Primary output:
+
+```text
+outputs/story-4/feature_engineered_data.csv
+```
 
 \## Current Status
-
-
 
 ✅ Project setup completed
 
@@ -230,4 +264,6 @@ outputs/story-3/
 
 ✅ Story 3 completed
 
-🔄 Story 4 – Feature Engineering next
+✅ Story 4 completed 
+
+🔄 Story 5 – Baseline Machine Learning Model next
