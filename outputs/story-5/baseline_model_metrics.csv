@@ -1,0 +1,6 @@
+metric,value
+accuracy,0.6293
+precision,0.1278
+recall,0.537
+f1_score,0.2065
+roc_auc,0.6275

@@ -254,6 +254,38 @@ Primary output:
 outputs/story-4/feature_engineered_data.csv
 ```
 
+### Story 5 – Baseline Machine Learning Model
+
+✅ Completed
+
+Completed using:
+
+- `src/baseline_model.py`
+
+Approach:
+
+- 80/20 stratified train/test split
+- StandardScaler feature scaling
+- Logistic Regression with class_weight='balanced' (to handle ~91/9 class imbalance)
+
+Baseline results:
+
+| Metric | Value |
+|---|---|
+| Accuracy | 0.629 |
+| Precision | 0.128 |
+| Recall | 0.537 |
+| F1 Score | 0.207 |
+| ROC-AUC | 0.628 |
+
+Top predictors: discharge_disposition_id, number_inpatient, age_numeric, time_in_hospital
+
+Outputs saved to:
+
+```text
+outputs/story-5/
+```
+
 \## Current Status
 
 ✅ Project setup completed
@@ -266,4 +298,6 @@ outputs/story-4/feature_engineered_data.csv
 
 ✅ Story 4 completed 
 
-🔄 Story 5 – Baseline Machine Learning Model next
+✅ Story 5 completed
+
+🔄 Story 6 – Model Evaluation next
