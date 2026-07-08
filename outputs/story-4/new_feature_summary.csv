@@ -1,0 +1,7 @@
+feature,dtype,mean,unique_values
+age_numeric,int64,65.44,10
+total_prior_visits,int64,0.56,34
+had_prior_inpatient_visit,int64,0.12,2
+num_medications_prescribed,int64,1.19,7
+num_medications_changed,int64,0.26,5
+diag_1_category,object,,10
