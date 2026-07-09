@@ -285,6 +285,30 @@ Outputs saved to:
 ```text
 outputs/story-5/
 ```
+### Story 6 – Model Evaluation
+
+✅ Completed
+
+Completed using:
+
+- `src/model_evaluation.py`
+
+Evaluation performed:
+
+- Compared baseline vs. dummy (majority-class) classifier
+- 5-fold cross-validation (ROC-AUC 0.625 ± 0.004 — confirms stability)
+- Precision-Recall curve (Average Precision 0.150)
+- Decision threshold tuning (0.3–0.7)
+
+Key finding: default 0.5 threshold gives the best recall (0.537); 
+threshold 0.6 gives the best F1 (0.216) but lower recall (0.278) — 
+tradeoff to revisit once a stronger model exists.
+
+Outputs saved to:
+
+```text
+outputs/story-6/
+```
 
 \## Current Status
 
@@ -300,4 +324,6 @@ outputs/story-5/
 
 ✅ Story 5 completed
 
-🔄 Story 6 – Model Evaluation next
+✅ Story 6 completed
+
+🔄 Story 7 – Random Forest / XGBoost next

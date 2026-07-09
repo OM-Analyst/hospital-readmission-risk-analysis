@@ -1,0 +1,8 @@
+fold,roc_auc
+fold_1,0.6294
+fold_2,0.6172
+fold_3,0.626
+fold_4,0.625
+fold_5,0.6267
+mean,0.6249
+std,0.0041
