@@ -1,0 +1,8 @@
+metric,value
+5-fold CV ROC-AUC (mean),0.6249
+5-fold CV ROC-AUC (std),0.0041
+Average Precision (PR-AUC),0.1504
+Best threshold (by F1),0.6
+Precision at best threshold,0.1766
+Recall at best threshold,0.2776
+F1 at best threshold,0.2159
