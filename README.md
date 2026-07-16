@@ -334,6 +334,29 @@ Outputs saved to:
 outputs/story-7/
 ```
 
+### Story 8 – SHAP Interpretation
+
+✅ Completed
+
+Completed using:
+
+- `src/shap_interpretation.py`
+
+Explains the Story 7 XGBoost model (best-performing model) using SHAP:
+
+- Global feature importance (mean absolute SHAP value)
+- Summary and bar plots
+- Dependence plots for top 4 features
+- Example individual patient risk explanation
+
+Top drivers: discharge_disposition_id, number_inpatient, time_in_hospital, age_numeric
+
+Outputs saved to:
+
+```text
+outputs/story-8/
+```
+
 \## Current Status
 
 ✅ Project setup completed
@@ -352,4 +375,6 @@ outputs/story-7/
 
 ✅ Story 7 completed
 
-🔄 Story 8 – SHAP Interpretation next
+✅ Story 8 completed
+
+🔄 Story 9 – Power BI Dashboard next
