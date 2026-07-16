@@ -310,6 +310,30 @@ Outputs saved to:
 outputs/story-6/
 ```
 
+### Story 7 – Random Forest / XGBoost
+
+✅ Completed
+
+Completed using:
+
+- `src/advanced_models.py`
+
+| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
+|---|---|---|---|---|---|
+| XGBoost | 0.674 | 0.140 | 0.515 | 0.221 | 0.646 |
+| Random Forest | 0.669 | 0.138 | 0.512 | 0.218 | 0.640 |
+| Logistic Regression | 0.629 | 0.128 | 0.537 | 0.207 | 0.628 |
+
+Key finding: XGBoost outperforms the baseline on ROC-AUC. 
+discharge_disposition_id, number_inpatient, and prior inpatient visits 
+remain the strongest predictors across all models.
+
+Outputs saved to:
+
+```text
+outputs/story-7/
+```
+
 \## Current Status
 
 ✅ Project setup completed
@@ -326,4 +350,6 @@ outputs/story-6/
 
 ✅ Story 6 completed
 
-🔄 Story 7 – Random Forest / XGBoost next
+✅ Story 7 completed
+
+🔄 Story 8 – SHAP Interpretation next
