@@ -357,6 +357,27 @@ Outputs saved to:
 outputs/story-8/
 ```
 
+### Story 9 – Power BI Dashboard
+
+✅ Completed
+
+Data prepared using:
+
+- `src/dashboard_data_prep.py`
+
+Output: `dashboard/dashboard_data.csv` — readable, dashboard-ready table
+with decoded labels, engineered features, and model risk scores.
+
+Dashboard built in Power BI Desktop (`dashboard/readmission_dashboard.pbix`), 3 pages:
+
+**Overview** — KPI cards (readmission rate, total encounters, high-risk count, avg predicted risk), risk tier distribution, actual readmission rate by risk tier, readmission rate by age group
+
+**Risk Drivers** — readmission rate by diagnosis category and discharge disposition, prior inpatient visit impact, avg prior visits by outcome
+
+**Patient Detail** — sortable patient-level risk table with conditional formatting, avg predicted risk by gender and age, risk tier slicer
+
+Key validation: High-risk tier shows 22.9% actual readmission rate vs. 3.2% for Low — confirms the model's risk scores are meaningfully separating patients.
+
 \## Current Status
 
 ✅ Project setup completed
@@ -377,4 +398,6 @@ outputs/story-8/
 
 ✅ Story 8 completed
 
-🔄 Story 9 – Power BI Dashboard next
+✅ Story 9 completed
+
+🔄 Story 10 – Recommendations & Reporting next
