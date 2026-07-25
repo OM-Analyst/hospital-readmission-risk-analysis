@@ -378,6 +378,30 @@ Dashboard built in Power BI Desktop (`dashboard/readmission_dashboard.pbix`), 3 
 
 Key validation: High-risk tier shows 22.9% actual readmission rate vs. 3.2% for Low — confirms the model's risk scores are meaningfully separating patients.
 
+### Story 10 – Recommendations & Reporting
+
+✅ Completed
+
+Final deliverable:
+
+- `docs/readmission_recommendations_report.docx`
+
+10-section report combining the full pipeline (Stories 1-9) into a
+single narrative: methodology, cleaning summary, EDA findings, model
+comparison, SHAP interpretation, embedded Power BI dashboard
+screenshots, risk tier validation, and recommendations.
+
+Key recommendations:
+
+1. Prioritize discharge planning for High risk-tier patients
+2. Target patients aged 70+ for post-discharge follow-up
+3. Flag frequent utilizers (prior inpatient visits) proactively at admission
+4. Extra attention for Musculoskeletal/Circulatory/Respiratory diagnoses
+5. Investigate the "still patient" discharge disposition outlier (50% readmission rate) as a data quality flag
+6. Use the model as a screening/prioritization tool, not a sole decision-maker
+
+Project complete: all 10 stories finished.
+
 \## Current Status
 
 ✅ Project setup completed
@@ -400,4 +424,5 @@ Key validation: High-risk tier shows 22.9% actual readmission rate vs. 3.2% for 
 
 ✅ Story 9 completed
 
-🔄 Story 10 – Recommendations & Reporting next
+✅ Story 10 completed
+
