@@ -402,6 +402,26 @@ Key recommendations:
 
 Project complete: all 10 stories finished.
 
+### Story 11 (Extra) – Streamlit Interactive Risk Predictor
+
+✅ Completed
+
+Not part of the original 10-story plan, added as a bonus interactive
+demo on top of the Power BI dashboard.
+
+- `src/train_and_save_model.py` - trains and persists the final XGBoost model
+- `app/streamlit_app.py` - interactive form for live readmission risk prediction
+
+Run with:
+
+```text
+streamlit run app/streamlit_app.py
+```
+
+Lets a user enter a patient's encounter details (demographics, admission
+info, labs, medications, prior utilization) and get a live predicted
+risk score and risk tier, using the same XGBoost model from Story 7.
+
 \## Current Status
 
 ✅ Project setup completed
